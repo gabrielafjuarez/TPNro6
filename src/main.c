@@ -112,7 +112,7 @@ void SonarAlarma(reloj_t reloj){
 
 int main(void) { 
     board = BoardCreate();
-    reloj = CrearReloj(1000, SonarAlarma);
+    reloj = CrearReloj(10, SonarAlarma);
     //uint8_t numero[4] = {1,2,3,4};
 
     SisTick_Init(1000);
