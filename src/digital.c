@@ -189,6 +189,9 @@ bool DesactivaEntradaDigital (digital_input_t input){
     input->ultimo_estado = estado;
     return resultado;
 }
+
+
+
 /* === Ciere de documentacion ============================================== */
 
 /** @} Final de la definición del modulo para doxygen */
